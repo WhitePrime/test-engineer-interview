@@ -1,4 +1,4 @@
-Собеседование с QA. 250+ вопросов для Junior, Middle, Senior
+[Собеседование с QA. 250+ вопросов для Junior, Middle, Senior](https://whiteprime.github.io/QA-interview-250/)
 ============================================================
 
 
