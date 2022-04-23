@@ -20,4 +20,7 @@
   * [Осваиваем инструменты QA-инженера или как ручному тестировщику работать с REST API](api/osvaivaem-instrumenty-qa-inzhenera-ili-kak-ruchnomu-testirovshiku-rabotat-s-rest-api.md)
 * [Сети](seti/README.md)
   * [Основы](seti/osnovy.md)
+  * [Идентификация ресурсов](seti/identifikaciya-resursov.md)
+  * [HTTP](seti/http.md)
+  * [Client-Server](seti/client-server.md)
 * [Link collection](link-collection.md)
