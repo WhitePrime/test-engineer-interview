@@ -78,7 +78,16 @@ description: >-
 [seti](seti/)
 {% endcontent-ref %}
 
+{% content-ref url="page-2.md" %}
+[page-2.md](page-2.md)
+{% endcontent-ref %}
+
+&#x20;
 
 
 
 
+
+{% content-ref url="link-collection.md" %}
+[link-collection.md](link-collection.md)
+{% endcontent-ref %}
