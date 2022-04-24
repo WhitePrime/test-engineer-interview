@@ -18,6 +18,7 @@
 * [API](api/README.md)
   * [Основы API](api/osnovy.md)
   * [Postman](api/postman.md)
+  * [Page 1](api/page-1.md)
   * [Осваиваем инструменты QA-инженера или как ручному тестировщику работать с REST API](api/osvaivaem-instrumenty-qa-inzhenera-ili-kak-ruchnomu-testirovshiku-rabotat-s-rest-api.md)
 * [Сети](seti/README.md)
   * [Основы по сетям](seti/osnovy.md)
