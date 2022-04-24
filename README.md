@@ -52,7 +52,31 @@ description: >-
 
 
 
+Одновременно с началом изучения теории необходима практика,
 
+Опережающая теоретический материал и без статичного уровня сложности.
+
+
+
+{% content-ref url="sql/" %}
+[sql](sql/)
+{% endcontent-ref %}
+
+{% content-ref url="teoriya-testirovaniya/" %}
+[teoriya-testirovaniya](teoriya-testirovaniya/)
+{% endcontent-ref %}
+
+{% content-ref url="linux/" %}
+[linux](linux/)
+{% endcontent-ref %}
+
+{% content-ref url="api/" %}
+[api](api/)
+{% endcontent-ref %}
+
+{% content-ref url="seti/" %}
+[seti](seti/)
+{% endcontent-ref %}
 
 
 
