@@ -34,5 +34,6 @@
   * [Wireshark](instrumenty/wireshark.md)
   * [Zabbix](instrumenty/zabbix.md)
   * [Chrome DevTools](instrumenty/chrome-devtools.md)
+  * [Chrome DevTools 2](instrumenty/chrome-devtools-2.md)
   * [DBeaver](instrumenty/dbeaver.md)
 * [Links](link-collection.md)
