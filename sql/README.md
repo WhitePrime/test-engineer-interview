@@ -1,7 +1,7 @@
 # SQL
 
-{% content-ref url="../api/osnovy.md" %}
-[osnovy.md](../api/osnovy.md)
+{% content-ref url="osnovy.md" %}
+[osnovy.md](osnovy.md)
 {% endcontent-ref %}
 
 {% content-ref url="primery-zadach.md" %}
