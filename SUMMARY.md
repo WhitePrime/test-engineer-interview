@@ -4,6 +4,7 @@
   * [Краткая версия](qa-interview/kratkaya-versiya.md)
   * [250+](readme/250+.md)
   * [Практические задания](readme/prakticheskie-zadaniya.md)
+* [GIT](git.md)
 * [SQL](sql/README.md)
   * [Основы SQL](sql/osnovy.md)
   * [Примеры задач](sql/primery-zadach.md)
