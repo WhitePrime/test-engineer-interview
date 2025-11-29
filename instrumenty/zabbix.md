@@ -28,8 +28,7 @@ Configuration——Hosts——items——create items
 
 Сначала добавьте элемент мониторинга для мониторинга входящих пакетов
 
-![6120144-6a766f251510247c.png](https://russianblogs.com/images/900/1ee708b3c232b889f5c582f86dd97694.png)Мониторинг входящих пакетов\
-
+![6120144-6a766f251510247c.png](https://russianblogs.com/images/900/1ee708b3c232b889f5c582f86dd97694.png)Мониторинг входящих пакетов<br>
 
 Метод обработки данных: рассчитать изменение в секунду
 
@@ -61,8 +60,7 @@ Configuration——Actions——create action\
 Определить условия
 
 \
-![6120144-307b7dc864adc4ec.png](https://russianblogs.com/images/314/c4d94bd0100114938bee54318be1f3ca.png)image.png\
-
+![6120144-307b7dc864adc4ec.png](https://russianblogs.com/images/314/c4d94bd0100114938bee54318be1f3ca.png)image.png<br>
 
 Определить поведение
 
@@ -70,4 +68,4 @@ Configuration——Actions——create action\
 
 ***
 
-\
+<br>

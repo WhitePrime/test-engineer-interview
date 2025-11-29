@@ -1,6 +1,7 @@
 # Table of contents
 
-* [Test-engineer Interview](README.md)
+* [Home](README.md)
+* [Test-engineer Interview](<README (1).md>)
   * [Краткая версия](qa-interview/kratkaya-versiya.md)
   * [250+](readme/250+.md)
   * [Практические задания](readme/prakticheskie-zadaniya.md)

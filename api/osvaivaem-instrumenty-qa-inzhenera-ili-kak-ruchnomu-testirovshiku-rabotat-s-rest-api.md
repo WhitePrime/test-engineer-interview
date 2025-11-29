@@ -4,7 +4,7 @@
 
 Большинство веб-приложений в современном мире работают на клиент-серверной архитектуре. Основной ее смысл в том, что сетевая нагрузка распределена между поставщиком (сервер) и потребителем (клиент). Общение между ними осуществляется через сетевые протоколы, но для любого общения нужны правила, и тут мы как раз подходим к REST API.
 
-![Схема клиент-серверной архитектуры.](https://pocket-image-cache.com/filters:format\(jpg\):extract\_focal\(\)/https%3A%2F%2Fmedia.proglib.io%2Fposts%2F2021%2F09%2F14%2F8d41c2ec4ef4c35bdda2d02ca6c7e9e7.jpg)Схема клиент-серверной архитектуры.
+![Схема клиент-серверной архитектуры.](https://pocket-image-cache.com/filters:format\(jpg\):extract_focal\(\)/https%3A%2F%2Fmedia.proglib.io%2Fposts%2F2021%2F09%2F14%2F8d41c2ec4ef4c35bdda2d02ca6c7e9e7.jpg)Схема клиент-серверной архитектуры.
 
 **REST** (Representational State Transfer) – это набор правил взаимодействия компонентов распределенного приложения, которые включают в себя следующие требования (ограничения):
 
@@ -27,13 +27,13 @@
 
 Хватит общих слов. Пора переходить к практике: нужно открыть **devtools** браузера (нажать клавишу `F12`) и перейти во вкладку **Network** (можно настроить фильтр на показ **XHR**, так будет удобнее).
 
-![Скриншот браузера с открытой панелью devtools.](https://pocket-image-cache.com/filters:format\(jpg\):extract\_focal\(\)/https%3A%2F%2Fmedia.proglib.io%2Fposts%2F2021%2F08%2F25%2F972e73a1894c26447d6c4dd7317de10d.png)Скриншот браузера с открытой панелью devtools.
+![Скриншот браузера с открытой панелью devtools.](https://pocket-image-cache.com/filters:format\(jpg\):extract_focal\(\)/https%3A%2F%2Fmedia.proglib.io%2Fposts%2F2021%2F08%2F25%2F972e73a1894c26447d6c4dd7317de10d.png)Скриншот браузера с открытой панелью devtools.
 
 Колонка статуса показывает статус выполнения запроса, прошел ли он успешно, или была допущена ошибка. Если кратко, то статусы можно для простоты сортировать следующим образом:
 
 Допустим, был интересен определенный запрос, потому что именно его меняли в нужном релизе, или его статус указывает на ошибку. Чтобы посмотреть информацию по запросу, нужно дважды щелкнуть (уверена, что знаете, но проговорить нужно):
 
-![Скриншот браузера с открытой devtools.](https://pocket-image-cache.com/filters:format\(jpg\):extract\_focal\(\)/https%3A%2F%2Fmedia.proglib.io%2Fposts%2F2021%2F08%2F25%2Fb73376258935dcc38e4b83b2cb101075.png)Скриншот браузера с открытой devtools.
+![Скриншот браузера с открытой devtools.](https://pocket-image-cache.com/filters:format\(jpg\):extract_focal\(\)/https%3A%2F%2Fmedia.proglib.io%2Fposts%2F2021%2F08%2F25%2Fb73376258935dcc38e4b83b2cb101075.png)Скриншот браузера с открытой devtools.
 
 Основная информация, которую можно посмотреть по запросу, начиная работать с REST – это первые три вкладки:
 
@@ -70,7 +70,7 @@ curl --help
     
 ```
 
-![Непонятные символы появились, потому что нет русификации консоли.](https://pocket-image-cache.com/filters:format\(jpg\):extract\_focal\(\)/https%3A%2F%2Fmedia.proglib.io%2Fposts%2F2021%2F08%2F25%2F953fc55204b3c0ee9e9170f6aa60b176.png)Непонятные символы появились, потому что нет русификации консоли.
+![Непонятные символы появились, потому что нет русификации консоли.](https://pocket-image-cache.com/filters:format\(jpg\):extract_focal\(\)/https%3A%2F%2Fmedia.proglib.io%2Fposts%2F2021%2F08%2F25%2F953fc55204b3c0ee9e9170f6aa60b176.png)Непонятные символы появились, потому что нет русификации консоли.
 
 Был повторен GET-запрос и получен ответ. Используя ключ `-i`, можно посмотреть дополнительную информацию. Дальше можно попробовать отправить POST-запрос, сразу же отправив **header** `content-type`:
 
@@ -79,21 +79,21 @@ curl --help
     
 ```
 
-![Консоль с вызванным curl.](https://pocket-image-cache.com/filters:format\(jpg\):extract\_focal\(\)/https%3A%2F%2Fmedia.proglib.io%2Fposts%2F2021%2F08%2F25%2Fe850ee0ad3acde576c909953f77a4aee.png)Консоль с вызванным curl.
+![Консоль с вызванным curl.](https://pocket-image-cache.com/filters:format\(jpg\):extract_focal\(\)/https%3A%2F%2Fmedia.proglib.io%2Fposts%2F2021%2F08%2F25%2Fe850ee0ad3acde576c909953f77a4aee.png)Консоль с вызванным curl.
 
 В нашем запросе `-X POST` показывает, что используется метод `POST` (по умолчанию отправляется метод `GET`), `-d ‘’` – тело запроса (в данном случае пустое) и `-H 'content-type: application/json'` – заголовок, показывающий, что тип сообщений – json. В ответ пришел статус `400`, значит тело запроса нужно менять.
 
-**Postman** – свободно распространяемая программа с платным контентом для взаимодействия в команде. Для работе в ней нужно зарегистрировать свою почту на официальном [сайте](https://www.postman.com) и скачать десктопную версию (хотя можно работать и через браузер). Также для Postman есть официальная документация и обучающие видео.
+**Postman** – свободно распространяемая программа с платным контентом для взаимодействия в команде. Для работе в ней нужно зарегистрировать свою почту на официальном [сайте](https://www.postman.com/) и скачать десктопную версию (хотя можно работать и через браузер). Также для Postman есть официальная документация и обучающие видео.
 
 Начнем с отправки того же самого GET-запроса, что и с помощью curl:
 
-![Скриншот программы Postman.](https://pocket-image-cache.com/filters:format\(jpg\):extract\_focal\(\)/https%3A%2F%2Fmedia.proglib.io%2Fposts%2F2021%2F08%2F25%2F6193bb7c8b0d11ec6f89bf3a00876688.png)Скриншот программы Postman.
+![Скриншот программы Postman.](https://pocket-image-cache.com/filters:format\(jpg\):extract_focal\(\)/https%3A%2F%2Fmedia.proglib.io%2Fposts%2F2021%2F08%2F25%2F6193bb7c8b0d11ec6f89bf3a00876688.png)Скриншот программы Postman.
 
 На картинке видно, что заголовки были заполнены автоматически. Ответ более читаемый, чем при запросе с помощью curl.
 
 Теперь можно отправить POST-запрос, тело которого также будет пустым, и будет прописан указывающий тип запроса **header**:
 
-![Скриншот программы Postman.](https://pocket-image-cache.com/filters:format\(jpg\):extract\_focal\(\)/https%3A%2F%2Fmedia.proglib.io%2Fposts%2F2021%2F08%2F25%2Fe25e0d06236cd71c34bc1ac5b38c5b8d.png)Скриншот программы Postman.
+![Скриншот программы Postman.](https://pocket-image-cache.com/filters:format\(jpg\):extract_focal\(\)/https%3A%2F%2Fmedia.proglib.io%2Fposts%2F2021%2F08%2F25%2Fe25e0d06236cd71c34bc1ac5b38c5b8d.png)Скриншот программы Postman.
 
 Был получен такой же ответ с таким же статусом, как и при отправке запроса с помощью curl.
 
